@@ -1,0 +1,14 @@
+{
+  "name": "triqui",
+  "version": "1.0.0",
+  "description": "Juego de triqui/tictactoe/gato en typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+  },
+  "keywords": [],
+  "author": "Edwin Duque Yara",
+  "license": "ISC"
+}

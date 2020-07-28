@@ -1,0 +1,142 @@
+body{
+    background-color: white;
+    font-family: 'Roboto';
+}
+.casilla{
+    width: 150px;
+    min-height: 150px;
+    display: inline-block;
+    background: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid yellow;
+    margin:5px;
+    box-shadow: 10px 5px 5px green;
+    border-radius: 10px;
+    box-sizing: border-box;   
+}
+
+.blue{
+    width: 150px;
+    min-height: 150px;
+    display: inline-block;
+    background: blue;
+    font-size: 4em;
+    vertical-align: top;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border: 1px solid yellow;
+    padding-top: 30px;
+    box-sizing: border-box;   
+    margin:5px;
+    box-shadow: 10px 5px 5px green;
+    border-radius: 10px;;
+}
+
+.green{
+    width: 150px;
+    min-height: 150px;
+    display: inline-block;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background: green;
+    border: 1px solid yellow;
+    margin:5px;
+    padding-top: 30px;
+    box-sizing: border-box;   
+    box-shadow: 10px 5px 5px green;
+    border-radius: 10px;;
+}
+
+.tablero
+{
+    grid-column-start: 3;
+    width: 500px;
+    /* margin:10px auto; */
+}
+
+.pnlUsuarios{
+    width: 500px;
+    margin: 10px auto;
+}
+.pnlUsuarios input{
+    min-height:40px;
+    font-size: 1.1em;
+    width: 150px;
+}
+.pnlUsuarios button{
+    min-height:50px;
+    font-size: 1.1em;
+    width: 120px;
+    
+    background: rgba(210,255,82,1);
+    background: -moz-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(210,255,82,1)), color-stop(100%, rgba(145,232,66,1)));
+    background: -webkit-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    background: -o-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    background: -ms-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    background: linear-gradient(to bottom, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=0 );
+    
+}
+
+.mensajes{
+    grid-column-start: 2;
+    padding-left: 30px;
+    padding-top: 20px;
+    border: 2px solid red;
+}
+
+.jugadores{
+    color: orange;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 400px;
+    margin: 20px auto;
+}
+.usuarios{
+    text-align: center;
+    color: white;
+    min-height: 80px;
+    margin-top: 25px;
+    padding: 10px 4px;
+    background-color: red;
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+@keyframes pulse {
+    0% {
+      background-color: #14d845;
+    }
+    100% {
+      background-color: #caf509;
+    }
+  }
+
+.turno{
+    color: red;
+    animation: pulse 1s infinite;
+    width: 200px;
+    border-radius: 10px;
+    min-height: 100px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 25px;
+    box-sizing: border-box;  
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 10% 20%  60% 10%;
+    grid-template-rows: 10% 50% 30%;
+}
+
+/*# sourceMappingURL=/styles.0ad61341.css.map */
